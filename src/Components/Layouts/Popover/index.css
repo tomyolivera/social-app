@@ -1,0 +1,12 @@
+/* Popover */
+.popover{
+    @apply absolute right-5 top-12 md:top-10 bg-zinc-900 text-gray-300 shadow-lg;
+}
+
+.popover-header{
+    @apply px-3 py-2 bg-gray-700 text-gray-300 dark:bg-zinc-800 dark:text-gray-300 text-lg;
+}
+
+.popover-body{
+    @apply px-3 py-2;
+}

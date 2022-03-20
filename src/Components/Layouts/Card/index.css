@@ -1,0 +1,16 @@
+/* Cards */
+.card{
+    @apply px-3 overflow-visible rounded-lg;
+}
+
+.card-header{
+    @apply px-4 py-2 flex justify-between relative;
+}
+
+.card-content{
+    @apply bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-300;
+}
+
+.card-footer{
+    @apply px-3 py-1;
+}
